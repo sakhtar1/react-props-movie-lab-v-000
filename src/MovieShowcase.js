@@ -11,8 +11,7 @@ export default class MovieShowcase extends Component {
   					title={movieData.title}
   					IMDBRating={movieData.IMDBRating}
   					genres={movieData.genres}
-  					poster={movieData.poster}
-  					/>
+  					poster={movieData.poster}/>
   }
 
   render() {
